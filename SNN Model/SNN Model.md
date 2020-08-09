@@ -25,9 +25,9 @@ We hypothesize that the incorporation of Dropout and BatchNorm(Ledinauskas et al
 
 (a) LIF Neuron Model:
 <p align="center">
-<img src="https://latex.codecogs.com/gif.latex?\tau\*\frac{du}{dt}&space;=&space;-&space;u&space;&plus;&space;IR" title="\tau\*\frac{du}{dt} = - u + IR" /> <br />
-<img src="https://latex.codecogs.com/gif.latex?u(t^{(f)})=&space;\nu" title="u(t^{(f)})= \nu" /> <br />
-<img src="https://latex.codecogs.com/gif.latex?\lim_{t&space;\rightarrow&space;t^{(f)},t&space;>&space;t^{(f)}}&space;=&space;u_{rest}" title="\lim_{t \rightarrow t^{(f)},t > t^{(f)}} = u_{rest}" /> <br />
+<img src="https://latex.codecogs.com/gif.latex?\bg_white&space;\tau\*\frac{du}{dt}&space;=&space;-&space;u&space;&plus;&space;IR" title="\tau\*\frac{du}{dt} = - u + IR" /> <br />
+<img src="https://latex.codecogs.com/gif.latex?\bg_white&space;u(t^{(f)})=&space;\nu" title="u(t^{(f)})= \nu" /> <br />
+<img src="https://latex.codecogs.com/gif.latex?\bg_white&space;\lim_{t&space;\rightarrow&space;t^{(f)},t&space;>&space;t^{(f)}}&space;=&space;u_{rest}" title="\lim_{t \rightarrow t^{(f)},t > t^{(f)}} = u_{rest}" /> <br />
 <img src="https://latex.codecogs.com/gif.latex?u&space;=&space;u_{rest}\&space;if\&space;t^{(f)}<t<t^{(f)}&plus;t_{refrac}" title="u = u_{rest}\ if\ t^{(f)}<t<t^{(f)}+t_{refrac}" />
 </p>
 
