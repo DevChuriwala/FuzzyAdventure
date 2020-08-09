@@ -44,5 +44,15 @@ Having worked extensively with Python, we decided to use it as our language of c
 
 ## vi) Plan 
 
+The below images are taken from Lee et al., 2020, graphically explain our plan and the base for our model to develop on.
+
+<img src="./Images/LIF_Rep.png" width="800"><br/>
+The above image shows the input image encoded as Poisson-distributed spike trains entering layer L, where they are passed through the LIF neuron as described above, and output as a spike train to be passed into layer L+1.
+
+<img src="./Images/SNN_Conv.png" width="800"><br/>
+The above image shows the working of the convolutional and spatial pooling layer. For each timestep dt, the spikes are convolved with the weights, get accumulated over time and continuously leak. When the accumulated voltage becomes higher than the threshold voltage, a spike is generated.
+
+<img src="./Images/SNN_Arch.png" width="800"><br/>
+A figure showing the forward and backward propagation steps of our model, similar to what we see in ANN propagation. 
 
 
