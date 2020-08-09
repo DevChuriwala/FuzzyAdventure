@@ -34,8 +34,8 @@ We hypothesize that the incorporation of Dropout and BatchNorm(Ledinauskas et al
 (b) Modeling Spike-based BP:
 <p align="center">
 <img src="https://latex.codecogs.com/png.latex?\bg_white&space;\frac{\partial&space;E}{\partial&space;w^{L}}&space;=&space;\frac{\partial&space;E}{\partial&space;a_{LIF}}&space;\frac{\partial&space;a_{LIF}}{\partial&space;net}&space;\frac{\partial&space;net}{\partial&space;w^{L}}" title="\frac{\partial E}{\partial w^{L}} = \frac{\partial E}{\partial a_{LIF}} \frac{\partial a_{LIF}}{\partial net} \frac{\partial net}{\partial w^{L}}" /><br/>
-<img src="https://latex.codecogs.com/png.latex?Final\&space;output\&space;error,\&space;e_{j}&space;=&space;output_{j}&space;-&space;label_{j}" title="Final\ output\ error,\ e_{j} = output_{j} - label_{j}" /><br/>
-<img src="https://latex.codecogs.com/png.latex?Loss\&space;Function,\&space;E&space;=&space;\frac{1}{2}\sum_{j=1}^{n^{L}}e_{j}^{2}" title="Loss\ Function,\ E = \frac{1}{2}\sum_{j=1}^{n^{L}}e_{j}^{2}" /><br/>
+<img src="https://latex.codecogs.com/png.latex?\bg_white&space;Final\&space;output\&space;error,\&space;e_{j}&space;=&space;output_{j}&space;-&space;label_{j}" title="Final\ output\ error,\ e_{j} = output_{j} - label_{j}" /><br/>
+<img src="https://latex.codecogs.com/png.latex?\bg_white&space;Loss\&space;Function,\&space;E&space;=&space;\frac{1}{2}\sum_{j=1}^{n^{L}}e_{j}^{2}" title="Loss\ Function,\ E = \frac{1}{2}\sum_{j=1}^{n^{L}}e_{j}^{2}" /><br/>
 </p>
 
 ## v) Toolkits
