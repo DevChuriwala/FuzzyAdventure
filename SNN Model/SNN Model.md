@@ -56,3 +56,6 @@ The above image shows the working of the convolutional and spatial pooling layer
 A figure showing the forward and backward propagation steps of our model, similar to what we see in ANN propagation. 
 
 
+### PS 
+This is an ongoing project so we are still in the process of implementing the model. After completion of the model, we will move on to evaluation and optimization.
+Code for the project will periodically be put up in my SNN repo, which can be found at, <https://github.com/DevChuriwala/SpikingNeuralNetwork>. 
