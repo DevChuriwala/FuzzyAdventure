@@ -7,7 +7,7 @@ As time progresses our Neural Networks are becoming deeper and there is tons of 
 ## ii) Understanding the SOTA
 
 <img src="./Images/SNN_Class.png" width="800">
-As shown above, the SOTA models for SNNs currently consist of (a)Converted, (b)Unsupervised and (c)Supervised SNNs.<br>
+As shown above, the SOTA models for SNNs currently consist of (a)Converted, (b)Unsupervised, and (c)Supervised SNNs.<br>
 (a) Converted SNNs use advanced ANN optimization techniques and boast nearly ANN level accuracies(Rueckauer et al., 2017; Sengupta et al., 2019) but the problem arises in the signal representation, wherein the frequencies need to be estimated requiring non-trivial passage on time,<br>
 (b) Unsupervised methods such as STDP are biologically plausible and show high accuracies on datasets such as MNIST(Diehl and Cook, 2015) but the method does not scale well to deeper networks and hence has limited expressivity,<br>
-(c) Supervised methods of training on Spike-Based Data requires non-conventional BP, but it shows promise in terms of energy efficiency and better generalization, thus acheiving better accuracies.<br>
+(c) Supervised methods of training on Spike-Based Data requires non-conventional BP, but it shows promise in terms of energy efficiency and better generalization, thus achieving better accuracies.<br>
