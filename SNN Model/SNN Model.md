@@ -19,7 +19,7 @@ We also look at previously implemented models and their results, which can be fo
 We are interested in classifying Images, hence the input to the model will be images encoded as Poisson-distributed Spike trains, wherein the pixel intensity dictates the probability of spike generation. We will use the spike-based gradient descent algorithm as derived by Lee et al., 2020 for the Leaky Integrate and Fire(LIF) Neuron. We will also incorporate the ideas from successful deep ANN models such as LeNet, VGG, and EfficientNet. We plan to adapt Dropout and BatchNorm (non-conventional for spiking data) techniques to better regularize the network. We aim to benchmark the results against past work on object datasets such as MNIST and CIFAR10.<br />
 The code for modeling the LIF Neuron has already been implemented by me, and can be found at, <https://github.com/DevChuriwala/SpikingNeuralNetwork>.
 
-## iv) Mathematical Hypothesis
+## iv) Our Hypothesis
 
 We hypothesize that the incorporation of Dropout and BatchNorm(Ledinauskas et al., 2020) should improve the regularization performance of our model over the existing work, the latter also helping in reducing the training time. Since we are using supervised learning, we also hypothesize that using deeper networks, we should be able to create a model with performance comparable to leading ANNs.<br>
 
@@ -38,9 +38,11 @@ We hypothesize that the incorporation of Dropout and BatchNorm(Ledinauskas et al
 <img src="https://latex.codecogs.com/png.latex?Loss\&space;Function,\&space;E&space;=&space;\frac{1}{2}\sum_{j=1}^{n^{L}}e_{j}^{2}" title="Loss\ Function,\ E = \frac{1}{2}\sum_{j=1}^{n^{L}}e_{j}^{2}" /><br/>
 </p>
 
-## v) Toolkit
+## v) Toolkits
 
 Having worked extensively with Python, we decided to use it as our language of choice, it is relatively easy to code in and the abundance of useful libraries is very helpful. As for SNN specific libraries, there are many to choose from such as BRIAN, ANNarchy, NEST, NEURON, Nengo(SpiNNaker) and BindsNET; but our goal is to make an efficient model which runs on CPU/GPUs, and having had a lot of experience using PyTorch in the past, we chose BindsNET(Hazan et al., 2018). We carry out most of our model training on Colab - generally on the Tesla P100 GPUs and the datasets we use for benchmarking are research standards such as MNIST and CIFAR10.
+
+## vi) Plan 
 
 
 
