@@ -53,9 +53,14 @@ The above image shows the input image encoded as Poisson-distributed spike train
 The above image shows the working of the convolutional and spatial pooling layer. For each timestep dt, the spikes are convolved with the weights, get accumulated over time and continuously leak. When the accumulated voltage becomes higher than the threshold voltage, a spike is generated.
 
 <img src="./Images/SNN_Arch.png" width="800"><br/>
-A figure showing the forward and backward propagation steps of our model, similar to what we see in ANN propagation. 
+A figure showing the forward and backward propagation steps of our model, similar to what we see in ANN propagation.
+
+## ix) Testing the model
+
+Initially, we create a baseline model without Dropout, BatchNorm, or Data Augmentation to get a fair measure of its capabilities. We add a manual seed to allow all the results to be reproducible. The dataset is divided into a fixed training and validation set using the seed, with the validation set being used only for testing purposes and is unseen to the model during training. Since our model is an image classifier with equivalent class sizes, accuracy is a good measure of model performance. We selectively add features and test the model accuracy to see their individual and collective effects on the same seeded validation data(we also plan to explore K-Fold CV for the same). We hypothesize an increase in model performance with an increase in model depth, so we will also be looking at the change in precision versus the model size. Ideally, we aim to bridge the gap between ANNs and SNNs, so we numerically compare ANN accuracies to our model's accuracies(in terms of error increment) on the same data.
+
 
 
 ### PS 
-This is an ongoing project so we are still in the process of implementing the model. After completion of the model, we will move on to evaluation and optimization.
+This is an ongoing project so we are still in the process of (vii)implementing the model. After (viii)completion of the model, we will move on to (ix)evaluation and optimization.
 Code for the project will periodically be put up in my SNN repo, which can be found at, <https://github.com/DevChuriwala/SpikingNeuralNetwork>. 
