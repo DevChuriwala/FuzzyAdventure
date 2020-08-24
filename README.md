@@ -1,6 +1,7 @@
 # FuzzyAdventure
 
-This repository consists of my submission for the SAiDL Summer Assignment 2020. More details for each section can be found in the Readme files of the folders themselves.
+This repository consists of my submission for the SAiDL Summer Assignment 2020. 
+**More details for each section can be found in the README files of the folders themselves.**
 
 ## Files
 
