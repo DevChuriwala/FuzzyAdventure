@@ -1,6 +1,6 @@
 # FuzzyAdventure
 
-This repository consists of some explorational work done on LeNet and PyGAN. 
+This repository consists of some explorational work done on LeNet and DCGAN. 
 **More details for each section can be found in the README files of the folders themselves.**
 
 ## Files
