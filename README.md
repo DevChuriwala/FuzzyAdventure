@@ -1,6 +1,6 @@
 # FuzzyAdventure
 
-This repository consists of my submission for the SAiDL Summer Assignment 2020. 
+This repository consists of some explorational work done on LeNet and PyGAN. 
 **More details for each section can be found in the README files of the folders themselves.**
 
 ## Files
