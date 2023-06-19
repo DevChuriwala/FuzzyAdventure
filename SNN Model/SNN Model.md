@@ -1,4 +1,4 @@
-# SNN Model
+# SNN Model ([Code](https://github.com/DevChuriwala/SpikingNeuralNetwork/tree/master/Leaky%20Integrate%20and%20Fire%20Model))
 
 ## i) Framing a Question
 
